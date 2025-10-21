@@ -1,0 +1,499 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paige Leclair | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-spinner"></div>
+    <span class="preloader-text">Loading&hellip;</span>
+  </div>
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand"><span class="code-symbol">&lt;/&gt;</span> Paige Leclair</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="navMenu" class="nav-menu" role="tablist" aria-label="Primary">
+        <li><a class="nav-link" id="tab-about" role="tab" aria-controls="about" aria-selected="false" href="#about">About</a></li>
+        <li><a class="nav-link" id="tab-research" role="tab" aria-controls="research" aria-selected="false" href="#research">Research</a></li>
+        <li><a class="nav-link" id="tab-projects" role="tab" aria-controls="projects" aria-selected="false" href="#projects">Projects</a></li>
+        <li><a class="nav-link" id="tab-contact" role="tab" aria-controls="contact" aria-selected="false" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero tab-panel" role="tabpanel" id="home">
+    <canvas id="particles" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="name-split">
+          <span class="first-name">Paige</span>
+          <span class="last-name">LeClair</span>
+        </h1>
+
+        <div class="role-badge">
+          <span class="badge-icon">&lt;/&gt;</span>
+          <span class="badge-label">I AM A</span>
+          <span class="badge-role" aria-live="polite" aria-atomic="true">Developer</span>
+        </div>
+
+        <h2 class="hero-headline">Using technology to <span class="empathy">power people,</span> not just machines</h2>
+        <p class="hero-description">
+          My goal is to bridge the gap between technology and people through
+          my interdisciplinary knowledge in Computer Science Engineering and Psychology.
+          As opposed to competing with technology, I believe we should be working with it to create a better future for all.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="assets/paige-leclair-resume.pdf" class="btn btn-secondary" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">in</a>
+          <a href="mailto:Paige%20LeClair%20<paige.leclair.business@outlook.com>" aria-label="Email">@</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="photo-wrap">
+          <div class="photo-circle">
+            <img src="assets/images/profile.png" alt="Paige Leclair" class="profile-photo">
+          </div>
+          <div class="floating-chip chip-code"><span class="chip-glyph">&lt;/&gt;</span></div>
+          <div class="floating-chip chip-heart"><span class="chip-glyph">&#10084;</span></div>
+          <div class="floating-chip chip-psych"><span class="chip-glyph">&#129504;</span></div>
+          <div class="floating-chip chip-vision"><span class="chip-glyph">&#128065;</span></div>
+          <div class="floating-chip chip-hci"><span class="chip-glyph">&#129309;</span></div>
+        </div>
+      </div>
+      <div class="scroll-text">Scroll to explore</div>
+      <div class="scroll-indicator"><span></span></div>
+    </div>
+  </section>
+
+ 
+
+
+  <!-- About -->
+  <section class="section section-alt tab-panel" role="tabpanel" aria-labelledby="tab-about" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="fade-in about-tagline">A multi-layered story of passion, purpose, and the pursuit of human-centered technology</p>
+
+      <!-- About internal tabs -->
+      <div class="about-grid fade-in">
+        <aside class="about-tabs" role="tablist" aria-label="About subsections">
+          <button class="about-tab active" role="tab" aria-selected="true" aria-controls="panel-journey" data-target="panel-journey">
+            <span class="tab-icon" aria-hidden="true">&#129517;</span>
+            <span>Personal Journey</span>
+          </button>
+          <button class="about-tab" role="tab" aria-selected="false" aria-controls="panel-academic" data-target="panel-academic">
+            <span class="tab-icon" aria-hidden="true">&#127891;</span>
+            <span>Academic Path</span>
+          </button>
+          <button class="about-tab" role="tab" aria-selected="false" aria-controls="panel-research" data-target="panel-research">
+            <span class="tab-icon" aria-hidden="true">&#128300;</span>
+            <span>Research Passion</span>
+          </button>
+          <button class="about-tab" role="tab" aria-selected="false" aria-controls="panel-teaching" data-target="panel-teaching">
+            <span class="tab-icon" aria-hidden="true">&#128218;</span>
+            <span>Teaching Philosophy</span>
+          </button>
+        </aside>
+
+        <div class="about-panels">
+          <!-- Journey panel -->
+          <article id="panel-journey" class="about-panel" role="tabpanel">
+            <div class="panel-header">
+              <div class="panel-icon" aria-hidden="true">&#129517;</div>
+              <h3>From Psychology to Code</h3>
+            </div>
+            <p>
+              My path to technology was not a straight line. I began in psychology, drawn to how people think, decide, and interact with the world around them. Over time, I realized I wanted to move from studying how people interact with the world to creating the things they interact with, the ones that make life easier and better. That realization led me to computer science, where I now bring an understanding of human behavior into engineering practice.
+            </p>
+            <p>
+              At the University of South Florida, I am pursuing dual degrees in Computer Science and Psychology, combining analytical problem solving with a deep understanding of people. My research through the National Science Foundation explored how human decision making connects with machine learning systems, and my software projects focus on building tools that enhance accessibility, usability, and everyday efficiency.
+            </p>
+            <p>
+              I am most interested in how technology can understand and adapt to human needs. Whether I am developing code, designing interfaces, or analyzing data, my goal remains constant: to create designs that work with people, not just for them.
+            </p>
+          </article>
+
+          <!-- Academic panel -->
+          <article id="panel-academic" class="about-panel is-hidden" role="tabpanel">
+            <div class="panel-header">
+              <div class="panel-icon" aria-hidden="true">&#127891;</div>
+              <h3>Rigorous Academic Foundation</h3>
+            </div>
+              <p>
+              I&rsquo;m studying computer science and psychology to bring both logic and empathy into how I solve problems.
+            </p>
+            <p>
+              That mix keeps me grounded, thinking about how systems function and how people experience them. It guides the way I plan, design, construct, and research.
+            </p>
+          </article>
+
+          <!-- Research panel -->
+          <article id="panel-research" class="about-panel is-hidden" role="tabpanel">
+            <div class="panel-header">
+              <div class="panel-icon" aria-hidden="true">&#128300;</div>
+              <h3>Advancing ML Security &amp; HCI</h3>
+            </div>
+              <p>
+              I was selected for a National Science Foundation research internship that combined my background in psychology and computer science. My work involved programming and studying how people interact with technology, particularly when that technology is under adversarial attack.
+            </p>
+            <p>
+              Alongside development, I focused on understanding how human behavior shapes the security and reliability of intelligent systems.
+            </p>
+          </article>
+
+          <!-- Teaching panel -->
+          <article id="panel-teaching" class="about-panel is-hidden" role="tabpanel">
+            <div class="panel-header">
+              <div class="panel-icon" aria-hidden="true">&#128218;</div>
+              <h3>Empowering Through Teaching</h3>
+            </div>
+            <p>
+              Teaching is about inspiring curiosity, building confidence, and maintaining enthusiasm. My experience as a coding instructor has taught
+               me how to translate complex ideas into something everyone can unnderstand, while keeping students engaged and motivated to continue learning.
+            </p>
+            <p>
+              I am passionate about making technology accessible to everyone, especially underrepresented groups in STEM. 
+              I believe that everyone should have the opportunity to learn to code, and I am dedicated to helping them do so.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section class="section tab-panel" role="tabpanel" aria-labelledby="tab-research" id="research">
+    <div class="container">
+      <h2 class="section-title">Research</h2>
+      <p class="fade-in research-tagline">Advancing ML Security &amp; Human&ndash;Computer Interaction</p>
+
+      <div class="research-panel fade-in">
+        <div class="research-overview">
+          <h3>Research Overview</h3>
+          <p>
+            As an NSF Research Fellow, I had the unique opportunity to work at the intersection of
+            machine learning security and human psychology. My research focused on understanding how
+            adversarial attacks exploit not just technical vulnerabilities, but also human cognitive
+            biases and perceptual limitations.
+          </p>
+          <p>
+            This interdisciplinary approach led to breakthrough insights in developing more robust AI
+            systems that consider both technical and human factors. The work has implications for
+            cybersecurity, AI safety, and human&ndash;computer interaction design.
+          </p>
+          <p>
+            The research was conducted in collaboration with leading experts from multiple institutions
+            and has resulted in several high-impact publications and practical applications in industry
+            settings.
+          </p>
+        </div>
+
+        <div class="research-areas-block">
+          <h3 class="research-subtitle">Key Research Areas</h3>
+          <div class="research-areas">
+            <span class="research-tag">Autonomous Vehicles</span>
+            <span class="research-tag">Adversarial Perturbation Attacks</span>
+            <span class="research-tag">User Studies</span>
+            <span class="research-tag">Situational Awareness</span>
+            <span class="research-tag">Virtual Reality</span>
+          </div>
+        </div>
+
+        <div class="research-mentor">Research Mentorship: <strong>Dr. Alsharif</strong></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section section-alt tab-panel" role="tabpanel" aria-labelledby="tab-projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <!-- Projects &mdash; subsections like About -->
+      <div class="projects-sections fade-in">
+        <div class="proj-grid">
+          <aside class="proj-tabs" role="tablist" aria-label="Project categories">
+            <button class="proj-tab active" role="tab" aria-selected="true" aria-controls="proj-cat-all" data-target="proj-cat-all">All</button>
+            <button class="proj-tab" role="tab" aria-selected="false" aria-controls="proj-cat-web" data-target="proj-cat-web">Web</button>
+            <button class="proj-tab" role="tab" aria-selected="false" aria-controls="proj-cat-ai" data-target="proj-cat-ai">AI</button>
+            <button class="proj-tab" role="tab" aria-selected="false" aria-controls="proj-cat-extension" data-target="proj-cat-extension">Extension</button>
+            <button class="proj-tab" role="tab" aria-selected="false" aria-controls="proj-cat-research" data-target="proj-cat-research">Research</button>
+            <button class="proj-tab" role="tab" aria-selected="false" aria-controls="proj-cat-systems" data-target="proj-cat-systems">Systems</button>
+          </aside>
+
+          <div class="proj-panels">
+            <!-- All -->
+            <article id="proj-cat-all" class="proj-panel" role="tabpanel">
+              <div class="projects-grid">
+                <article class="project-card" data-tags="web ai fullstack react node typescript">
+                  <h3>AI Cover Letter Generator <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
+                  <p>Full-stack app that generates personalized cover letters from resumes and job descriptions with inline editing and offline mode.</p>
+                  <ul>
+                    <li>Resume uploads with validation</li>
+                    <li>GPT-4 tailored drafts</li>
+                    <li>Local &ldquo;lite&rdquo; extraction</li>
+                  </ul>
+                  <div class="project-media project-media--compact">
+                    <span class="project-media-label">Product walkthrough</span>
+                    <video controls preload="metadata" playsinline>
+                      <source src="assets/videos/cover-letter-demo.mp4" type="video/mp4">
+                      Your browser doesn&rsquo;t support HTML5 video.
+                    </video>
+                  </div>
+                  <div class="tech-stack"><span>React</span><span>TypeScript</span><span>Vite</span><span>Node</span><span>LLM APIs</span><span>(Groq, Hugging&nbsp;Face, OpenAI)</span></div>
+                </article>
+                <article class="project-card" data-tags="systems csharp desktop winforms csv charts">
+                  <h3>Stock Wave Analyzer <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
+                  <p>An interactive financial analysis tool that loads OHLCV stock data and identifies trend &ldquo;waves&rdquo; via local extrema detection. It visualizes segments with candlestick and volume charts, overlays Fibonacci retracements, and runs real-time simulations.</p>
+                  <ul>
+                    <li>Wave detection with sliding-window extrema</li>
+                    <li>Fibonacci confirmations across O/H/L/C</li>
+                    <li>Rubber-band selection, snapping, live overlays</li>
+                  </ul>
+                  <div class="project-media project-media--compact">
+                    <span class="project-media-label">Product walkthrough</span>
+                    <video controls preload="metadata" playsinline>
+                      <source src="assets/videos/Data.mp4" type="video/mp4">
+                      Your browser doesn&rsquo;t support HTML5 video.
+                    </video>
+                  </div>
+                  <div class="tech-stack"><span>C#</span><span>.NET Framework</span><span>Windows Forms</span><span>Visual Studio 2022</span></div>
+                </article>
+                <article class="project-card" data-tags="research ai vr security unity">
+                  <h3>NSF REU &mdash; AV Security &amp; Human&ndash;AI Interaction <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
+                  <p>VR-based research on adversarial perturbations in AV perception with behavioral analytics.</p>
+                  <ul>
+                    <li>Unity VR simulation</li>
+                    <li>Eye-tracking and RT analysis</li>
+                    <li>CSV&ndash;JSON pipelines</li>
+                  </ul>
+                  <div class="project-media project-media--photo">
+                    <span class="project-media-label">Poster presentation</span>
+                    <button type="button" class="project-media-thumb" data-modal-target="#modal-nsf-reu-photo" aria-label="Expand NSF REU poster presentation photo">
+                      <img src="assets/images/nsf-reu.jpg" alt="Paige Leclair and collaborators presenting the NSF REU autonomous driving failures poster" loading="lazy">
+                    </button>
+                  </div>
+                  <div class="tech-stack"><span>Unity (C#)</span><span>VR</span><span>Data Analysis</span></div>
+                </article>
+                <article class="project-card" data-tags="systems cobol backend cli">
+                  <h3>InCollege &mdash; COBOL Console Networking App <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
+                  <p>Lightweight networking platform designed for college students, featuring secure user authentication, customizable profiles, user search and discovery, skill-learning modules, and an interactive connection system with accept and reject functionality. Supports persistent text-based input/output for reliable storage and retrieval of user data across sessions.</p>
+                  <ul>
+                    <li>Secure password validation</li>
+                    <li>Profile edit/view</li>
+                    <li>Network listings</li>
+                  </ul>
+                  <div class="tech-stack"><span>COBOL</span><span>Agile (Scrum)</span><span>Jira</span><span>GitHub</span></div>
+                </article>
+                <article class="project-card" data-tags="web extension ai react typescript">
+                  <h3>Canvas LMS Enhancement Extension <small style="color:var(--text-secondary)">&mdash; In Progress</small></h3>
+                  <p>Browser extension with AI study tools, smart organization, and analytics inside Canvas.</p>
+                  <ul>
+                    <li>Flashcards, summaries, quizzes</li>
+                    <li>Unified deadlines dashboard</li>
+                    <li>Accessible, responsive UI</li>
+                  </ul>
+                  <div class="tech-stack"><span>React</span><span>TypeScript</span><span>Tailwind</span><span>Shadcn/UI</span><span>Recharts</span></div>
+                </article>
+                <article class="project-card" data-tags="web fullstack data react typescript viz">
+                  <h3>GreenLight Eats &mdash; Restaurant Safety App <small style="color:var(--text-secondary)">&mdash; In Progress</small></h3>
+                  <p>Using data to make dining safer, simpler, and more personal.</p>
+                  <p><strong>Description:</strong><br>GreenLight Eats is a restaurant safety app designed to help users make informed dining choices through visual and data-driven insights. Built with React, TypeScript, Tailwind, and Vite, and prototyped in Figma, the app analyzes restaurant menus for allergens, dietary restrictions, and nutritional factors.
+                  Each menu item receives a dynamic safety score visualized through interactive Recharts components such as color-coded donuts and badges, allowing users to instantly see how well a dish aligns with their health, allergy, or religious needs.
+                  The ongoing prototype focuses on clarity and accessibility, translating nutritional data into intuitive visuals. GreenLight Eats aims to merge health awareness with technology, turning complex food data into confident and inclusive dining decisions.</p>
+                  <div class="project-media project-media--compact">
+                    <span class="project-media-label">Feature walkthrough</span>
+                    <video controls preload="metadata" playsinline>
+                      <source src="assets/videos/greenlight-eats-demo.mp4" type="video/mp4">
+                      Your browser doesn&rsquo;t support HTML5 video.
+                    </video>
+                  </div>
+                  <div class="tech-stack"><span>React</span><span>TypeScript</span><span>Tailwind</span><span>Recharts</span><span>Vite</span></div>
+                </article>
+              </div>
+            </article>
+
+            <!-- Web -->
+            <article id="proj-cat-web" class="proj-panel is-hidden" role="tabpanel">
+              <div class="projects-grid">
+                <article class="project-card" data-tags="web ai fullstack react node typescript">
+                  <h3>AI Cover Letter Generator <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
+                  <p>Full-stack app that generates personalized cover letters with inline editing.</p>
+                  <div class="tech-stack"><span>React</span><span>TypeScript</span><span>Vite</span><span>Node</span><span>LLM APIs</span><span>(Groq, Hugging&nbsp;Face, OpenAI)</span></div>
+                </article>
+                <article class="project-card" data-tags="web extension ai react typescript">
+                  <h3>Canvas LMS Enhancement Extension <small style="color:var(--text-secondary)">&mdash; In Progress</small></h3>
+                  <p>AI study tools and course organization inside Canvas.</p>
+                  <div class="tech-stack"><span>React</span><span>TypeScript</span><span>Tailwind</span></div>
+                </article>
+                <article class="project-card" data-tags="web fullstack data react typescript viz">
+                  <h3>GreenLight Eats &mdash; Restaurant Safety App <small style="color:var(--text-secondary)">&mdash; In Progress</small></h3>
+                  <p>Using data to make dining safer, simpler, and more personal.</p>
+                  <p><strong>Description:</strong><br>GreenLight Eats is a restaurant safety app designed to help users make informed dining choices through visual and data-driven insights. Built with React, TypeScript, Tailwind, and Vite, and prototyped in Figma, the app analyzes restaurant menus for allergens, dietary restrictions, and nutritional factors.</p>
+                  <p>Each menu item receives a dynamic safety score visualized through interactive Recharts components such as color-coded donuts and badges, allowing users to instantly see how well a dish aligns with their health, allergy, or religious needs.</p>
+                  <p>The ongoing prototype focuses on clarity and accessibility, translating nutritional data into intuitive visuals. GreenLight Eats aims to merge health awareness with technology, turning complex food data into confident and inclusive dining decisions.</p>
+                  <div class="project-media project-media--compact">
+                    <span class="project-media-label">Feature walkthrough</span>
+                    <video controls preload="metadata" playsinline>
+                      <source src="assets/videos/greenlight-eats-demo.mp4" type="video/mp4">
+                      Your browser doesn&rsquo;t support HTML5 video.
+                    </video>
+                  </div>
+                  <div class="tech-stack"><span>React</span><span>TypeScript</span><span>Recharts</span></div>
+                </article>
+              </div>
+            </article>
+
+            <!-- AI -->
+            <article id="proj-cat-ai" class="proj-panel is-hidden" role="tabpanel">
+              <div class="projects-grid">
+                <article class="project-card" data-tags="web ai fullstack react node typescript">
+                  <h3>AI Cover Letter Generator <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
+                  <p>GPT-4 powered tailored drafts from resumes and job descriptions.</p>
+                  <div class="project-media project-media--compact">
+                    <span class="project-media-label">Product walkthrough</span>
+                    <video controls preload="metadata" playsinline>
+                      <source src="assets/videos/cover-letter-demo.mp4" type="video/mp4">
+                      Your browser doesn&rsquo;t support HTML5 video.
+                    </video>
+                  </div>
+                </article>
+                <article class="project-card" data-tags="web extension ai react typescript">
+                  <h3>Canvas LMS Enhancement Extension <small style="color:var(--text-secondary)">&mdash; In Progress</small></h3>
+                  <p>AI study tools and summaries within Canvas.</p>
+                </article>
+                <article class="project-card" data-tags="research ai vr security unity">
+                  <h3>NSF REU &mdash; AV Security &amp; Human&ndash;AI Interaction <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
+                  <p>Adversarial perturbations and human factors in AVs.</p>
+                  <div class="project-media project-media--photo">
+                    <span class="project-media-label">Poster presentation</span>
+                    <button type="button" class="project-media-thumb" data-modal-target="#modal-nsf-reu-photo" aria-label="Expand NSF REU poster presentation photo">
+                      <img src="assets/images/nsf-reu.jpg" alt="Paige Leclair and collaborators presenting the NSF REU autonomous driving failures poster" loading="lazy">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </article>
+
+            <!-- Extension -->
+            <article id="proj-cat-extension" class="proj-panel is-hidden" role="tabpanel">
+              <div class="projects-grid">
+                <article class="project-card" data-tags="web extension ai react typescript">
+                  <h3>Canvas LMS Enhancement Extension <small style="color:var(--text-secondary)">&mdash; In Progress</small></h3>
+                  <p>Collaborative browser extension enhancing Canvas with AI tools.</p>
+                </article>
+              </div>
+            </article>
+
+            <!-- Research -->
+            <article id="proj-cat-research" class="proj-panel is-hidden" role="tabpanel">
+              <div class="projects-grid">
+                <article class="project-card" data-tags="research ai vr security unity">
+                  <h3>NSF REU &mdash; AV Security &amp; Human&ndash;AI Interaction <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
+                  <p>VR-based AV security research with user studies and analytics.</p>
+                  <div class="project-media project-media--photo">
+                    <span class="project-media-label">Poster presentation</span>
+                    <button type="button" class="project-media-thumb" data-modal-target="#modal-nsf-reu-photo" aria-label="Expand NSF REU poster presentation photo">
+                      <img src="assets/images/nsf-reu.jpg" alt="Paige Leclair and collaborators presenting the NSF REU autonomous driving failures poster" loading="lazy">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </article>
+
+            <!-- Systems -->
+            <article id="proj-cat-systems" class="proj-panel is-hidden" role="tabpanel">
+              <div class="projects-grid">
+                <article class="project-card" data-tags="systems csharp desktop winforms csv charts">
+                  <h3>Stock Wave Analyzer <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
+                  <p>Windows desktop tool for OHLCV wave detection with candlesticks, Fibonacci overlays, and real-time simulations.</p>
+                </article>
+                <article class="project-card" data-tags="systems cobol backend cli">
+                  <h3>InCollege &mdash; COBOL Console Networking App <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
+                  <p>Console networking platform with auth, profiles, and connections.</p>
+                </article>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <div id="modal-nsf-reu-photo" class="modal" aria-hidden="true">
+    <div class="modal-content modal-content--media">
+      <button type="button" class="modal-close modal-close--overlay" data-close aria-label="Close NSF REU poster photo">&times;</button>
+      <img src="assets/images/nsf-reu.jpg" alt="Paige Leclair and collaborators presenting the NSF REU autonomous driving failures poster">
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <section class="section section-alt tab-panel" role="tabpanel" aria-labelledby="tab-contact" id="contact">
+    <div class="container contact-content">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">Let&rsquo;s connect &mdash; I&rsquo;m always open to interesting problems and collaborations.</p>
+      <div class="contact-methods">
+        <a class="contact-card" href="mailto:Paige%20LeClair%20<paige.leclair.business@outlook.com>">Email</a>
+        <a class="contact-card" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Paige Leclair</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
