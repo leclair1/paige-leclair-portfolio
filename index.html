@@ -23,6 +23,7 @@
       </button>
       <ul id="navMenu" class="nav-menu" role="tablist" aria-label="Primary">
         <li><a class="nav-link" id="tab-about" role="tab" aria-controls="about" aria-selected="false" href="#about">About</a></li>
+        <li><a class="nav-link" id="tab-certificates" role="tab" aria-controls="certificates" aria-selected="false" href="#certificates">Certificates</a></li>
         <li><a class="nav-link" id="tab-research" role="tab" aria-controls="research" aria-selected="false" href="#research">Research</a></li>
         <li><a class="nav-link" id="tab-projects" role="tab" aria-controls="projects" aria-selected="false" href="#projects">Projects</a></li>
         <li><a class="nav-link" id="tab-contact" role="tab" aria-controls="contact" aria-selected="false" href="#contact">Contact</a></li>
@@ -64,7 +65,7 @@
       <div class="hero-image">
         <div class="photo-wrap">
           <div class="photo-circle">
-            <img src="assets/images/profile.png" alt="Paige Leclair" class="profile-photo">
+            <img src="assets/images/profile.jpg" alt="Paige Leclair" class="profile-photo">
           </div>
           <div class="floating-chip chip-code"><span class="chip-glyph">&lt;/&gt;</span></div>
           <div class="floating-chip chip-heart"><span class="chip-glyph">&#10084;</span></div>
@@ -116,7 +117,7 @@
               <h3>From Psychology to Code</h3>
             </div>
             <p>
-              My path to technology was not a straight line. I began in psychology, drawn to how people think, decide, and interact with the world around them. Over time, I realized I wanted to move from studying how people interact with the world to creating the things they interact with, the ones that make life easier and better. That realization led me to computer science, where I now bring an understanding of human behavior into engineering practice.
+              My path to technology was not a straight line. I began in psychology, drawn to how people think, decide, and interact with the world around them. Over time, I realized I wanted to move from studying how people interact with the world to creating the things they interact with, the things that make life easier and better. That realization led me to computer science, where I now bring an understanding of human behavior into engineering practice.
             </p>
             <p>
               At the University of South Florida, I am pursuing dual degrees in Computer Science and Psychology, combining analytical problem solving with a deep understanding of people. My research through the National Science Foundation explored how human decision making connects with machine learning systems, and my software projects focus on building tools that enhance accessibility, usability, and everyday efficiency.
@@ -176,6 +177,26 @@
     </div>
   </section>
 
+  <!-- Certificates -->
+  <section class="section tab-panel" role="tabpanel" aria-labelledby="tab-certificates" id="certificates">
+    <div class="container">
+      <h2 class="section-title">Certificates</h2>
+      <p class="fade-in about-tagline">Credentials that complement my academic work and practical experience</p>
+      <div class="research-panel fade-in">
+        <div class="research-overview">
+          <div class="cert-header">
+            <img src="assets/images/google-logo.svg" alt="Google logo" class="cert-logo">
+            <h3>Google Data Analytics Professional Certificate</h3>
+          </div>
+          <p>
+            I completed the Google Data Analytics Professional Certificate, a eight-course program designed to build practical, industry-ready analytics skills. Over several months, I gained experience with data cleaning, preparation, analysis, and visualization using spreadsheets, SQL, R, and Tableau. The coursework focused on real problem solving, data ethics, and communicating insights in clear, meaningful ways. The program gave me a solid foundation in the full analytics workflow and the tools commonly used in junior data analyst roles.
+          </p>
+          <p><a href="assets/certificates/google-data-analytics.pdf" target="_blank" rel="noopener">View certificate (PDF)</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Research -->
   <section class="section tab-panel" role="tabpanel" aria-labelledby="tab-research" id="research">
     <div class="container">
@@ -186,20 +207,13 @@
         <div class="research-overview">
           <h3>Research Overview</h3>
           <p>
-            As an NSF Research Fellow, I had the unique opportunity to work at the intersection of
-            machine learning security and human psychology. My research focused on understanding how
-            adversarial attacks exploit not just technical vulnerabilities, but also human cognitive
-            biases and perceptual limitations.
+            In 2025, I was selected for the National Science Foundation research internship program and completed my site placement at the University of Alabama. I worked alongside doctorate-level researchers, PhD students, and other undergraduates on a project at the intersection of machine learning security and human psychology.
           </p>
           <p>
-            This interdisciplinary approach led to breakthrough insights in developing more robust AI
-            systems that consider both technical and human factors. The work has implications for
-            cybersecurity, AI safety, and human&ndash;computer interaction design.
+            My research focused on how adversarial attacks exploit both technical weaknesses in autonomous vehicle models and the cognitive biases people rely on when reacting to these systems. The goal was to better understand the human-computer interaction behind AV decision-making and explore ways to design AI that accounts for human behavior instead of ignoring it.
           </p>
           <p>
-            The research was conducted in collaboration with leading experts from multiple institutions
-            and has resulted in several high-impact publications and practical applications in industry
-            settings.
+            Using Unity in C# and virtual reality, I created adversarial driving scenarios that captured biometric data such as pupil dilation, fixation duration, and saccade amplitude. This work offered insight into how humans perceive and respond to corrupted or misleading machine learning outputs, and how models can be made more resilient by considering these responses.
           </p>
         </div>
 
@@ -307,6 +321,7 @@
                   <ul>
                     <li>Flashcards, summaries, quizzes</li>
                     <li>Unified deadlines dashboard</li>
+                    <li>Profile persistence</li>
                     <li>Accessible, responsive UI</li>
                   </ul>
                   <div class="project-media project-media--compact">
@@ -346,7 +361,7 @@
                 </article>
                 <article class="project-card" data-tags="web extension ai react typescript">
                   <h3>Canvas LMS Enhancement Extension <small style="color:var(--text-secondary)">&mdash; In Progress</small></h3>
-                  <p>AI study tools and course organization inside Canvas.</p>
+                  <p>AI study tools and course organization inside Canvas, with profile persistence for saved preferences.</p>
                   <div class="tech-stack"><span>React</span><span>TypeScript</span><span>Tailwind</span></div>
                 </article>
                 <article class="project-card" data-tags="web fullstack data react typescript viz">
@@ -383,7 +398,7 @@
                 </article>
                 <article class="project-card" data-tags="web extension ai react typescript">
                   <h3>Canvas LMS Enhancement Extension <small style="color:var(--text-secondary)">&mdash; In Progress</small></h3>
-                  <p>AI study tools and summaries within Canvas.</p>
+                  <p>AI study tools and summaries within Canvas, plus profile persistence for saved preferences.</p>
                 </article>
                 <article class="project-card" data-tags="research ai vr security unity">
                   <h3>NSF REU &mdash; AV Security &amp; Human&ndash;AI Interaction <small style="color:var(--text-secondary)">&mdash; Completed</small></h3>
@@ -403,7 +418,7 @@
               <div class="projects-grid">
                 <article class="project-card" data-tags="web extension ai react typescript">
                   <h3>Canvas LMS Enhancement Extension <small style="color:var(--text-secondary)">&mdash; In Progress</small></h3>
-                  <p>Collaborative browser extension enhancing Canvas with AI tools.</p>
+                  <p>Collaborative browser extension enhancing Canvas with AI tools and profile persistence.</p>
                   <div class="project-media project-media--compact">
                     <span class="project-media-label">Video demo</span>
                     <video controls preload="metadata" playsinline>

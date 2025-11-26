@@ -330,23 +330,3 @@ document.getElementById('year').textContent = String(new Date().getFullYear());
   window.addEventListener('resize', () => { resize(); init(); });
   resize(); init(); step();
 })();
-
-// Inject updated Research Overview copy
-(function updateResearchOverview(){
-  const container = document.querySelector('.research-overview');
-  if (!container) return;
-  const heading = container.querySelector('h3');
-  const headingHTML = heading ? heading.outerHTML : '<h3>Research Overview</h3>';
-  const paragraphs = [
-    ' In 2025, I was selected for the prestigious National Science Foundation research internship program.',
-    'My site was located at the University of Alabama where I collaborated with doctorate level computer scientists,',
-    'PhD students, and other computer science undergraduates.',
-    'I worked at the intersection of machine learning security and human psychology, studying how adversarial attacks exploit both technical flaws in autonomous learning systems and human perceptual biases.',
-    'My research explored ways machine learning models in AV systems are exploited and how people react to these exploitations in real time.',
-    'The end goal is to understand the human-computer interaction behind AV systems and design AI that better accounts for human behavior, so people and autonomous systems operate in sync.',
-    'Using Unity (C#) and virtual reality, I built adversarial scenarios to capture biometric data like pupil dilation,',
-    'saccade amplitude, and fixation duration. This interdisciplinary work, done in collaboration with University of Alabama researchers,',
-    'offered new insight into human-aware AI resilience.'
-  ];
-  container.innerHTML = headingHTML + paragraphs.map(p => `<p>${p}</p>`).join('');
-})();
