@@ -17,7 +17,7 @@ const ProjectsPreview = () => {
       description: 'NSF-funded research on developing robust defense mechanisms against adversarial attacks in machine learning systems, with focus on human behavior pattern analysis.',
       image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       technologies: ['Python', 'TensorFlow', 'Scikit-learn', 'Jupyter'],
-      status: 'In Progress',
+      status: 'Completed',
       impact: 'NSF Recognition',
       color: 'from-purple-600 to-purple-500'
     },

@@ -53,7 +53,7 @@ const Header = () => {
             </div>
             <div className="hidden sm:block">
               <h1 className="font-heading font-bold text-xl text-foreground group-hover:text-primary transition-colors">
-                Paige LeClair
+                Paige Leclair
               </h1>
               <p className="text-sm text-muted-foreground font-body">
                 Technology with Empathy

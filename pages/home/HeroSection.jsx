@@ -50,7 +50,7 @@ const HeroSection = () => {
               <h1 className="text-5xl lg:text-7xl font-bold text-white font-heading">
                 Paige
                 <span className="block text-4xl lg:text-6xl text-gray-300 mt-2">
-                  LeClair
+                  Leclair
                 </span>
               </h1>
             </motion.div>
@@ -155,7 +155,7 @@ const HeroSection = () => {
               <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-slate-700 shadow-2xl">
                 <Image
                   src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-                  alt="Paige LeClair - Developer, Researcher, Educator, Advocate"
+                  alt="Paige Leclair - Developer, Researcher, Educator, Advocate"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent"></div>
